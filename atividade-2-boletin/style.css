@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fcfcfc;
+  margin: 20px;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header-title {
+  font-size: 2em;
+  margin: 0;
+}
+
+.header-subtitle {
+  color: gray;
+  margin-top: 5px;
+}
+
+.student-info {
+  margin-bottom: 20px;
+}
+
+.student-info-item {
+  font-size: 1.1em;
+  margin: 8px 0;
+}
+
+.grades-table-section {
+  margin-top: 20px;
+}
+
+.grades-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grades-table-header {
+  background-color: #f7e68e;
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  text-align: left;
+}
+
+.grades-table-cell {
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  text-align: left;
+  background-color: #fff9db;
+}
+
+.positive-traits-section {
+  margin-top: 30px;
+  background-color: #fff9db;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.positive-traits-title {
+  margin-top: 0;
+}
+
+.positive-traits-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.positive-traits-item {
+  margin-bottom: 5px;
+}
