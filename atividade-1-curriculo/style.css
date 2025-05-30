@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+}
+
+#cabeca h1 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 2.2em;
+}
+
+#cabeca h2 {
+    margin: 5px 0 0 0;
+    color: #7f8c8d;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+#contato {
+    text-align: right;
+}
+
+#contato h2 {
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+    font-size: 1.3em;
+}
+
+#contato h3 {
+    margin: 5px 0;
+    font-weight: normal;
+    font-size: 1em;
+    color: #34495e;
+}
+
+main {
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.secao {
+    margin-bottom: 25px;
+}
+
+.secao h2 {
+    color: #3498db;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+.secao h3 {
+    color: #2c3e50;
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.secao h4 {
+    color: #34495e;
+    margin: 8px 0;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+header {
+    flex-direction: column;
+}
+
+#contato {
+    text-align: left;
+    margin-top: 20px;
+}
